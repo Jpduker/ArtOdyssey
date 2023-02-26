@@ -1,6 +1,6 @@
 import classes from './styles/Navbar.module.css';
 import { Link } from 'react-router-dom';
-import logo from './assets/logo/demystify.png';
+import logo from './assets/logo/culture.png';
 
 const Navbar = () => {
     const navOptions = [
@@ -11,9 +11,7 @@ const Navbar = () => {
     return(
         <div className={classes.navbar}>
             <div className={classes.logo}>
-                <Link to='/'>
-                    <img src={logo} style={{'height':'100%' , 'width' :'100%'}} alt="logo" className={classes.logoImg} />
-                </Link>
+               ARTODDYSEY
             </div>
             <div className={classes.options}>
                 <ul className={classes.menus}>

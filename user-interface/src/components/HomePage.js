@@ -5,7 +5,7 @@ const HomePage = () => {
     return(
         <div className={classes.container}>
             <div className={classes['inner-container']}>
-                <h3 className={classes.quote}>Think before you believe , predict Fakes easily!!</h3>
+                <h3 className={classes.quote}>Predict Artifacts across different cultures!</h3>
                 <Link to='/get-started'>
                     <button className={classes.primary}>
                         Get Started
